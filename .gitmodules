@@ -1,0 +1,10 @@
+[submodule "shared"]
+	path = shared
+	url = https://github.com/josh-gwaltney/imperium-shared.git
+[submodule "web"]
+	path = web
+	url = https://github.com/josh-gwaltney/imperium-web.git
+[submodule "api"]
+	path = api
+	url = https://github.com/josh-gwaltney/imperium-api.git
+

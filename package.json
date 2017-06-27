@@ -6,8 +6,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/josh-gwaltney/imperium.git"
   },
+  "bugs": {
+    "url": "https://github.com/josh-gwaltney/imperium/issues"
+  },
+  "homepage": "https://github.com/josh-gwaltney/imperium#readme",
   "license": "MIT",
   "scripts": {
     "build": "",
