@@ -1,6 +1,0 @@
-[submodule "web"]
-	path = web
-	url = https://github.com/josh-gwaltney/imperium-web
-[submodule "vagrant"]
-	path = vagrant
-	url = https://github.com/josh-gwaltney/imperium-vagrant.git
