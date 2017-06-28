@@ -48,5 +48,6 @@ Temporary Items
 
 .idea/**/**
 node_modules/**
+npm_*/**
 .vagrant/**
 ubuntu**

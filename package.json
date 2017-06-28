@@ -15,7 +15,12 @@
   "license": "MIT",
   "scripts": {
     "build": "",
-    "start": ""
+    "build:dev": "",
+    "build:vagrant": "",
+    "clean": "",
+    "start": "",
+    "start:dev": "",
+    "start:vagrant": ""
   },
   "devDependencies": {
     "babel-cli": "latest",
@@ -25,6 +30,13 @@
     "babel-preset-es2017": "latest",
     "babel-preset-stage-2": "latest",
     "concurrently": "latest",
-    "cross-env": "latest"
+    "cross-env": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "file-loader": "latest",
+    "node-sass": "latest",
+    "style-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
   }
 }

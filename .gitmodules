@@ -7,3 +7,6 @@
 [submodule "shared"]
 	path = shared
 	url = https://github.com/josh-gwaltney/imperium-shared
+[submodule "vagrant"]
+	path = vagrant
+	url = https://github.com/josh-gwaltney/imperium-vagrant.git
