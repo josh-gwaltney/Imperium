@@ -13,13 +13,18 @@
   },
   "homepage": "https://github.com/josh-gwaltney/imperium#readme",
   "license": "MIT",
+  "bin": {
+
+  },
   "scripts": {
-    "build": "",
-    "build:dev": "",
-    "build:vagrant": "",
+    "build": "cross-env ./bin/build.js",
+    "build:dev": "cross-env yarn build -- NODE_ENV=dev",
+    "build:local": "",
+    "build:vagrant": "cd vagrant && vagrant up web",
     "clean": "",
     "start": "",
     "start:dev": "",
+    "start:local": "",
     "start:vagrant": ""
   },
   "devDependencies": {
