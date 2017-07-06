@@ -13,9 +13,7 @@
   },
   "homepage": "https://github.com/josh-gwaltney/imperium#readme",
   "license": "MIT",
-  "bin": {
-
-  },
+  "bin": {},
   "scripts": {
     "build": "cross-env ./bin/build.js",
     "build:dev": "cross-env yarn build -- NODE_ENV=dev",
@@ -35,11 +33,13 @@
     "babel-preset-es2016": "latest",
     "babel-preset-es2017": "latest",
     "babel-preset-stage-2": "latest",
+    "chai": "latest",
     "concurrently": "latest",
     "cross-env": "latest",
     "css-loader": "latest",
     "extract-text-webpack-plugin": "latest",
     "file-loader": "latest",
+    "mocha": "latest",
     "node-sass": "latest",
     "style-loader": "latest",
     "webpack": "latest",
