@@ -20,7 +20,8 @@
     "build:local": "",
     "build:vagrant": "cd vagrant && vagrant up web",
     "clean": "",
-    "start": "",
+    "lint": "eslint --max-warnings 100 --format compact web/src/js/**/*.js shared/src/**/*.js api/src/**/*.js",
+    "start": "concurrently --kill-others \"set NODE_ENV=dev && webpack --progress --colors --profile --watch\" \"babel-node web\\index.js\" \"babel-node api\\index.js --watch\"",
     "start:dev": "",
     "start:local": "",
     "start:vagrant": ""
@@ -28,6 +29,7 @@
   "devDependencies": {
     "babel-cli": "latest",
     "babel-core": "latest",
+    "babel-eslint": "latest",
     "babel-loader": "latest",
     "babel-preset-es2015": "latest",
     "babel-preset-es2016": "latest",
@@ -37,8 +39,10 @@
     "concurrently": "latest",
     "cross-env": "latest",
     "css-loader": "latest",
+    "eslint": "latest",
     "extract-text-webpack-plugin": "latest",
     "file-loader": "latest",
+    "jsdoc": "latest",
     "mocha": "latest",
     "node-sass": "latest",
     "style-loader": "latest",
